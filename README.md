@@ -69,8 +69,8 @@ In `application.properties`:
 ```properties
 spring.application.name=hospitalmanagement
 
-spring.datasource.url=jdbc:postgresql://localhost:5432/hospitaldb
-spring.datasource.username=postgres
+spring.datasource.url=${DATABASE URL}
+spring.datasource.username=${DATABASE_USERNAME}
 spring.datasource.password=${DB_PASSWORD}
 
 spring.jpa.hibernate.ddl-auto=update
